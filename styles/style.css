@@ -9,8 +9,14 @@ body{
     color: #000000;
     width: 100%;
     height: 100vh;
-    background-color: #94A3B8;
-    
+    /* background-color: #c3c8d1; */
+    background-image: url(../Assets/images/fondo1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    /* background-image: linear-gradient(to top, #828fa9, #869fc6, #86b0c6);
+     */
     
 }
 
@@ -51,9 +57,9 @@ header > .containerHeader > h1{
 }
 header > .containerHeader > h2{
     width: 100%;
-    color:  #020617;
+    color:  #000000;
     font-style: italic;
-    font-size: 14px;
+    font-size: 1em;
     text-align: center;
     
 }
@@ -82,7 +88,7 @@ main{
 }
 .informate{
     width: 80%;
-    background-color: #020617b9;
+    background-color: #020617e3;
     border-radius: 10px;
     border: 2px solid #0D9488;
     color: rgb(255, 255, 255);
@@ -257,6 +263,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding: 0px 10px;
     
 }
 .fatherHabilidades h2{
@@ -283,12 +290,12 @@ main{
     width: 100%;
     height: 70%;
    display: none;
-   animation: fade-in 0.5s ease-in; 
+   animation: transition 0.5s ease-in-out; 
 
 }
 
   
-  @keyframes fade-in {
+  @keyframes transition {
     0% {
       opacity: 0;
     }
@@ -307,9 +314,7 @@ progress{
 .carousel li img {
     width: 100%;
     height: 80%;
-    border-radius: 10px;
-    filter: drop-shadow(0 0 10px #6badef );
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .carousel-nav {
@@ -318,7 +323,7 @@ progress{
 }
 
 .carousel-nav button {
-    background-color: #020617b9;
+    background-color: #020617;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -336,4 +341,10 @@ progress{
 .carousel li:first-child {
     display: block;
     block-size: 80%;
+}
+
+/* estilo proyectos  */
+
+.fatherProyect{
+    width: 100%;
 }
