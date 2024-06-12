@@ -82,7 +82,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 
 
 }
@@ -93,6 +93,21 @@ main{
     border: 2px solid #132681;
     color: rgb(255, 255, 255);
     padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+.education{
+    width: 80%;
+    background-color: #020617e3;
+    border-radius: 10px;
+    border: 2px solid #132681;
+    color: rgb(255, 255, 255);
+    padding: 0px 0 10px 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     font-style: oblique;
@@ -147,23 +162,47 @@ main{
     font-weight: 200;
     
 }
-.informate > .par{
-    border-radius: 50px 20px 0 50px;
-    position: relative;
-    bottom: 10px;
-    left: 23.3%;
+.informate > .par > h2{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 7px 0 ;
+    width: 80%;
+    height: 2rem;
+    border-radius: 50px 20px 0px 50px;
+    font-style: italic;
+    font-weight: 200;
+    background-color: #0c5468;
+
 }
-.informate > .length{
+.informate > .par {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.fatherLanguage{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0 0 10px 0;
+    margin: 0;
+
+}
+.fatherLanguage  .text{
     background-color: #0c5468;
     color: white;
     font-size: 1em;
     text-align: center;
+    padding: 7px 0 ;
+    width: 80%;
     height: 2rem;
     font-style: italic;
     font-weight: 200;
-    border-radius: 8px 8px 0 0;
-    width: 107%;
-    
+    width: 100%;
+    border-radius: 8px 8px 0 0px;
+
 }
 
 .containerLanguage {
@@ -447,4 +486,58 @@ footer ul li img{
    align-items: center;
    cursor: pointer;
    filter:drop-shadow(0 0 6px  #0E7490) ;
+}
+
+/* media query dispostivos tablet */
+
+@media screen and (min-width:710px) and (max-width:900px ){
+    header{
+        height: 200px;
+    }   
+    .containerReferences{
+        height: 250px;
+    }
+    
+.containerHeader{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    justify-content: space-evenly;
+    position: static;
+    margin-top: 80px;
+   
+}
+header > .containerHeader > h1{
+    width: 100%;
+    color:  #0ea7d1;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #20130a;
+    
+}
+header > .containerHeader > h2{
+    width: 100%;
+    height:20%;
+    color:  #000000;
+    font-style: italic;
+    font-size: 1.1em;
+    text-align: center;
+    
+}
+
+
+
+#foto{
+    z-index: 1;
+    top: 10px;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px double  #0E7490;
+}
 }
