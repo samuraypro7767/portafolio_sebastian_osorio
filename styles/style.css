@@ -10,7 +10,7 @@ body{
     width: 100%;
     height: 100vh;
     /* background-color: #c3c8d1; */
-    background-image: url(../Assets/images/fondo1.jpg);
+    background-image: url(../Assets/images/fondo2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ header{
 }
 header > .containerHeader > h1{
     width: 100%;
-    color:  #0E7490;
+    color:  #0ea7d1;
     font-style: italic;
     font-size: 26px;
     text-align: center;
@@ -90,7 +90,7 @@ main{
     width: 80%;
     background-color: #020617e3;
     border-radius: 10px;
-    border: 2px solid #ffffff;
+    border: 2px solid #132681;
     color: rgb(255, 255, 255);
     padding: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -132,7 +132,7 @@ main{
 }
 
 .informate > .titleInformate{
-    background-color: #0E7490;
+    background-color: #0c5468;
     color: white;
     font-size: 1em;
     text-align: center;
@@ -148,23 +148,13 @@ main{
     
 }
 .informate > .par{
-    background-color: #0E7490;
-    color: white;
-    font-size: 1em;
-    text-align: center;
-    padding: 7px 0 ;
-    width: 80%;
-    height: 2rem;
     border-radius: 50px 20px 0 50px;
     position: relative;
     bottom: 10px;
     left: 23.3%;
-    font-style: italic;
-    font-weight: 200;
-    
 }
 .informate > .length{
-    background-color: #0E7490;
+    background-color: #0c5468;
     color: white;
     font-size: 1em;
     text-align: center;
@@ -225,7 +215,7 @@ main{
     align-items: center;
     border-radius: 5px;
     border: 1px solid #020617;
-    background-image: linear-gradient(to top, #6badef , #b2ebf3, #88ccb7);
+    background-image: linear-gradient(to top, #335a81 , #416faa, #235979);
 }
  .titleReferences{
     width: 50%;
@@ -233,7 +223,7 @@ main{
      font-weight: 200;
     font-style: italic;
      font-size: 2em;
-    border-bottom: 6px double #0E7490;    
+    color: #0ea7d1;
 }
 .fatherReferences{
     width: 100%;
@@ -248,7 +238,7 @@ main{
     width: 40%;
 }
 .containerReferences >.containerData{
-    color: #000000;
+    color: #c5c5c5;
     padding: 5px;
     border-radius: 5px;
     text-align: center;
@@ -272,7 +262,8 @@ main{
      font-weight: 200;
     font-style: italic;
      font-size: 1.8em;
-    border-bottom: 6px double #0E7490;    
+    color:#0ea7d1 ;
+    
 }
 .carousel {
     overflow-x: hidden;
@@ -323,9 +314,9 @@ progress{
 }
 
 .carousel-nav button {
-    background-color: #6badef;
-    color: #000000;
-    border: 2px solid white;
+    background-color: #215283;
+    color: #aaaaaa;
+    border: 2px solid #0a1755;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -358,7 +349,7 @@ progress{
      font-weight: 200;
     font-style: italic;
      font-size: 1.8em;
-    border-bottom: 6px double #0E7490;   
+     color: #0ea7d1;
     position: relative;
     left:25%;
    
@@ -371,9 +362,9 @@ progress{
     justify-content: space-between;
     border-radius: 0 50px 50px 0px;
     align-items: center;
-    border-right: 4px solid white;
-    border-top: 3px  solid white;
-    border-bottom: 3px  solid white;
+    border-right: 4px solid #132681;
+    border-top: 3px  solid #132681;
+    border-bottom: 3px  solid #132681;
     padding: 10px 0;
 }
 .proyectPar{
@@ -385,9 +376,9 @@ progress{
     margin-left: 20%;
     border-radius:  50px 0px 0px 50px;
     border-right: 0;
-    border-left: 4px solid white;
-    border-top: 3px  solid white;
-    border-bottom: 3px  solid white;
+    border-left: 4px solid #132681;
+    border-top: 3px  solid #132681;
+    border-bottom: 3px  solid #132681;
     padding: 0 0 0 15px;
     text-align: right;
 
@@ -416,7 +407,7 @@ progress{
 
 }
 .proyectInformate h2 {
-    color: #0D9488;
+    color: #0E7490;
     font-family:'Times New Roman', Times, serif;
     font-style:italic;
 }
@@ -443,9 +434,7 @@ footer{
     justify-content: center;
     padding: 10px 0;
 }
-footer h3{
-    color: #0E7490;
-}
+
 footer ul{
    width: 80%;
    height: 90%;
