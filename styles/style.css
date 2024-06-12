@@ -168,11 +168,11 @@ main{
     color: white;
     font-size: 1em;
     text-align: center;
-    min-width: 107%;
     height: 2rem;
     font-style: italic;
     font-weight: 200;
-    border-radius: 5px 5px 0 0;
+    border-radius: 8px 8px 0 0;
+    width: 107%;
     
 }
 
@@ -306,7 +306,7 @@ main{
 progress{
     width: 100%;
    height: 30px;
-   accent-color: #0D9488;
+   accent-color: #071247;
 
 }
 
@@ -460,5 +460,5 @@ footer ul li img{
    justify-content: space-evenly;
    align-items: center;
    cursor: pointer;
-   filter:drop-shadow(0 0 4px  #0E7490) ;
+   filter:drop-shadow(0 0 6px  #0E7490) ;
 }
