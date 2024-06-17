@@ -490,7 +490,7 @@ progress{
 
 /* media query dispostivos tablet */
 @media screen and (min-width:0px) and (max-width:1354px ){
-    .headerInformate, .footerHeader{
+    .headerInformate, .footerHeader, .headerLanguage{
         display: none;
     }
 }
@@ -608,7 +608,7 @@ header > .containerHeader > h2{
 }
 
 /* pantallas grandes */
-@media screen and (min-width:1355px) and (max-width:1600px ){
+@media screen and (min-width:1355px) and (max-width:4000px ){
     body{
         display: flex;
         align-items: center;
@@ -663,6 +663,22 @@ header > .containerHeader > h2{
     
 }
 
+.headerLanguage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerLanguage section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.headerLanguage img{
+    width:60px;
+    display: flex;
+    flex-direction: column;
+}
 
 
 #foto{
@@ -698,20 +714,26 @@ header .headerInformate .titleInformateHeader{
  }
  .fatherLanguage{
     display: flex;
+
 }
 .footerHeader{
-    width: 100%;
+    width: 90%;
     height:8rem;
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-top: solid rgb(100, 100, 100);
 }
 .footerHeader h3{
-    width: 100%;
-    height: 30%;
-    text-align: center;
-    color:#0ea7d1;
-    font-size: 1.5rem;
+    width: 50%;
+    color: white;
+  background-color:#020617;
+  border-radius: 0;
+  text-align: center;
+  position: relative;
+  bottom: 10%;
+  border: solid #0c5468;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footerHeader ul{
     width: 100%;
@@ -778,7 +800,7 @@ main{
 
 .experience{
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 
@@ -931,31 +953,31 @@ main{
     padding: 0;
     margin: 0;
     list-style: none;
-    width: 70%;
-    height: 300px;
+    width: 60%;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 40%;
-    right: 15%;
+    bottom: 25%;
+    right: 0%;
 }
 .containerHabilidades .carousel li {
 width: 30%;
 }
 .containerHabilidades .carousel li img{
-width: 200px;
-height: 180px;
+width: 190px;
+height: 150px;
 }
 button{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 0px 5px;
 }
 .carousel-nav{
     display: flex;
-    justify-content: space-between;
-    width: 20%;
+    justify-content: start;
+    width: 50%;
     align-items: center;
 }
 .oneFooter{
