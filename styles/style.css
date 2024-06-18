@@ -494,7 +494,7 @@ progress{
         display: none;
     }
 }
-@media screen and (min-width:710px) and (max-width:900px ){
+ @media screen and (min-width:710px) and (max-width:818px ){
     
     header{
         height: 200px;
@@ -545,70 +545,118 @@ header > .containerHeader > h2{
     border-radius: 50%;
     border: 3px double  #0E7490;
 }
+.containerInfoReferneces{
+    width: 90%;
 }
-@media screen and (min-width:901px) and (max-width:1354px ){
+} 
+
+@media screen and (min-width:819px) and (max-width:1354px ){
     
     header{
         height: 200px;
     }   
+  
+    .containerHeader{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 350px;
+        justify-content: space-evenly;
+        position: static;
+        margin-top: 80px;
+    
+    }
+    header > .containerHeader > h1{
+        width: 100%;
+        color:  #0ea7d1;
+        font-style: italic;
+        font-size: 30px;
+        text-align: center;
+        border-bottom: 1px solid #20130a;
+        
+    }
+    header > .containerHeader > h2{
+        width: 100%;
+        height:20%;
+        color:  #000000;
+        font-style: italic;
+        font-size: 1.1em;
+        text-align: center;
+        
+    }
+    #foto{
+        z-index: 1;
+        top: 10px;
+        position: relative;
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        border: 3px double  #0E7490;
+    }
+    .fatherProyect{
+        margin-top: 55px;
+    }
+    .containerInfoReferneces{
+        width: 100%;
+    }
+        /* .containerInfoReferneces,.fatherProyect,.fatherHabilidades{
+        margin-top: 20px;
+    } */
     .containerReferences{
         height: 310px;
-        width: 450px;
+        width: 45%;
         font-size: 1.1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
     .containerReferences img{
-        width: 180px;
+        width: 170px;
     }
-    
-.containerHeader{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 350px;
-    justify-content: space-evenly;
-    position: static;
-    margin-top: 80px;
-   
-}
-header > .containerHeader > h1{
-    width: 100%;
-    color:  #0ea7d1;
-    font-style: italic;
-    font-size: 30px;
-    text-align: center;
-    border-bottom: 1px solid #20130a;
-    
-}
-header > .containerHeader > h2{
-    width: 100%;
-    height:20%;
-    color:  #000000;
-    font-style: italic;
-    font-size: 1.1em;
-    text-align: center;
-    
-}
+    main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+        gap:40px 30px;
+        
+    }
+    .informate{
+        width: 45%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .informate > .position:first-child{
+       position: relative;
+       bottom: 9.5%;
+    }
+    .informate >.position:nth-last-child(2) {
+        position: relative;
+        bottom: 13%;
+      }
+    .headerInformate{
+        display: none;
+    }
+    .containerLanguage{
+        width: 100%;
+        height: 100%;
+    }
+    .containerLanguage section img{
+        width: 90px;
+    }
 
 
-
-#foto{
-    z-index: 1;
-    top: 10px;
-    position: relative;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    border: 3px double  #0E7490;
+    .education p{
+        width:100%;
+    }
 }
-.fatherProyect{
-    margin-top: 55px;
-}
-}
-
-/* pantallas grandes */
-@media screen and (min-width:1355px) and (max-width:4000px ){
+@media screen and (min-width:1355px) and (max-width:1499px ){
     body{
         display: flex;
         align-items: center;
@@ -676,6 +724,7 @@ header > .containerHeader > h2{
 }
 .headerLanguage img{
     width:60px;
+    height: 10%;
     display: flex;
     flex-direction: column;
 }
@@ -691,21 +740,23 @@ header > .containerHeader > h2{
 }
 header .headerInformate{
     width: 90%;
-    height: 14rem;
+    height: 20%;
     padding: 0;
     border-radius: 0;
     border: none;
+    display: flex;
     border-top: solid rgb(97, 97, 97);
+    justify-content:center;
 }
 header .headerInformate .titleInformateHeader{
   width: 50%;
   background-color:#020617;
   border-radius: 0;
   text-align: center;
-  position: relative;
-  left: 25%;
-  bottom: 10%;
   border: solid #0c5468;
+  position: relative;
+  left: 26%;
+  bottom: 18px;
 
 }
  .headerInformate p{
@@ -718,7 +769,7 @@ header .headerInformate .titleInformateHeader{
 }
 .footerHeader{
     width: 90%;
-    height:8rem;
+    height:12rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -737,7 +788,7 @@ header .headerInformate .titleInformateHeader{
 }
 .footerHeader ul{
     width: 100%;
-    height: 70%;
+    height: 75%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -800,7 +851,7 @@ main{
 
 .experience{
     width: 100%;
-    font-size: 1.4rem;
+    font-size: 1.35em;
 }
 
 
@@ -960,14 +1011,14 @@ main{
     justify-content: center;
     position: relative;
     bottom: 25%;
-    right: 0%;
+    right: 8%;
 }
 .containerHabilidades .carousel li {
-width: 30%;
+width: 40%;
 }
 .containerHabilidades .carousel li img{
 width: 190px;
-height: 150px;
+height: 165px;
 }
 button{
     width: 80px;
@@ -976,9 +1027,390 @@ button{
 }
 .carousel-nav{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     width: 50%;
+    align-items:flex-end;
+}
+.oneFooter{
+    display: none;
+}
+}
+
+/* pantallas grandes */
+@media screen and (min-width:1500px) and (max-width:2000px ){
+    body{
+        display: flex;
+        align-items: center;
+        width: 96%;
+        height: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+    
+    }
+    header{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: none;
+        border-right:5px double #0D9488 ;
+        gap: 40px;
+    }   
+ 
+.containerHeader{
+    width: 70%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 350px;
+    position: static;
+    margin-top: 0px;
+    justify-content: space-around;
+   
+}
+header > .containerHeader > h1{
+    width: 100%;
+    color:  #0ea7d1;
+    font-style: italic;
+    font-size: 1.8rem;
+    text-align: center;
+    border-bottom: 2px solid #888888;
+    
+}
+header > .containerHeader > h2{
+    width: 100%;
+    height:20%;
+    color:  #999999;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+.headerLanguage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerLanguage section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.headerLanguage img{
+    width:60px;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#foto{
+    z-index: 1;
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 4px double  #0E7490;
+}
+header .headerInformate{
+    width: 90%;
+    height: 20%;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    border-top: solid rgb(97, 97, 97);
+    justify-content:center;
+}
+header .headerInformate .titleInformateHeader{
+  width: 50%;
+  background-color:#020617;
+  border-radius: 0;
+  text-align: center;
+  border: solid #0c5468;
+  position: relative;
+  left: 26%;
+  bottom: 18px;
+
+}
+ .headerInformate p{
+    font-size: 1rem;
+    padding: 8px;
+ }
+ .fatherLanguage{
+    display: flex;
+
+}
+.footerHeader{
+    width: 90%;
+    height:12rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: solid rgb(100, 100, 100);
+}
+.footerHeader h3{
+    width: 50%;
+    color: white;
+  background-color:#020617;
+  border-radius: 0;
+  text-align: center;
+  position: relative;
+  bottom: 10%;
+  border: solid #0c5468;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footerHeader ul{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footerHeader ul li a img{
+  width: 50px;
+  cursor: pointer;
+  filter:drop-shadow(0 0 6px  #0E7490) ;
+}
+
+/* Cuerpo Pagina */
+main{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+
+
+}
+.informate{
+    width: 50%;
+    height: 300px;
+    background-color: #020617e3;
+    border-radius: 10px;
+    border: 2px solid #132681;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+.intro{
+    display: none;
+}
+
+.education{
+    width: 40%;
+    background-color: #020617e3;
+    border-radius: 10px;
+    border: 2px solid #132681;
+    color: rgb(255, 255, 255);
+    padding: 0px 0 10px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+   
+}
+
+.experience{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+
+.informate > .titleInformate{
+    font-size: 1.4em;
+    padding: 3px 0 ;
+    height: 2rem;
+    
+    
+}
+.informate > .par > h2{
+    font-size: 1.3em;
+    padding: 1.5px 0 ;
+
+}
+
+
+
+/* contenedor Referencias */
+
+.containerInfoReferneces{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-content: stretch;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+}
+.containerReferences{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+
+}
+ .titleReferences{
+     font-size: 2.2em;
+}
+.fatherReferences{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.2em;
+        
+}
+.containerReferences img{
+    width: 30%;
+}
+.containerReferences >.containerData{
+    width: 100%;
+    color: #c5c5c5;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.fatherLanguage{
+    display: none;
+}
+/* estilo proyectos  */
+
+.fatherProyect{
+    width: 45%;
+    padding: 0;
+    
+}
+.fatherProyect .titlePrinciProyect{
+    width: 60%;
+     font-size: 2em;
+     color: #0ea7d1;
+   
+}
+.proyect{
+    width: 100%;
+    height: 140px;
+    display: flex; 
+    justify-content: space-evenly;
+    border-radius: 10px ;
+    align-items: center;
+    border: 4px solid #132681;
+    gap: 20px;
+}
+.proyectPar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-left: 0%;
+    border-radius:  10px;
+    border: 4px solid #132681;
+    text-align: left;
+
+}
+.proyectInformate{
+    width: 60%;
+    color: white;
+}
+.proyect .img_container{
+    width: 100px;
+    height:100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.proyect .img_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.proyectInformate {
+    gap: 5px;
+
+}
+.proyectInformate a {
+    font-weight: bold;    
+
+}
+
+.proyectInformate p {
+   font-size: 17px;
+}
+/* Carrucel */
+
+.fatherHabilidades{
+    display: flex;
+    height: 13rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center
+}
+.fatherHabilidades .titleHabilidades{
+  display: none;
+}
+.containerHabilidades{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+}
+.containerHabilidades .carousel{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 60%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 25%;
+    right: 8%;
+}
+.containerHabilidades .carousel li {
+width: 40%;
+}
+.containerHabilidades .carousel li img{
+width: 190px;
+height: 165px;
+}
+button{
+    width: 80px;
+    height: 80px;
+    margin: 0px 5px;
+}
+.carousel-nav{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items:flex-end;
 }
 .oneFooter{
     display: none;
