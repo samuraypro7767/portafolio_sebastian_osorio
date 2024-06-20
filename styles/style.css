@@ -1386,6 +1386,21 @@ main{
 .proyectInformate p {
    font-size: 17px;
 }
+@media screen {
+    @media (min-width:1800px) and (max-width:2000px ) {
+        .experience {
+            width: 80%;
+            align-items: start;
+        }
+        .education{
+            font-size: 1.3rem;
+        }
+        .headerInformate p{
+            font-size: 1.1rem;
+        }
+    }
+    
+}
 /* Carrucel */
 
 .fatherHabilidades{
